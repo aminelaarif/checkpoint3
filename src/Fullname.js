@@ -1,14 +1,6 @@
 import React from 'react'
 
-function Fullname() {
-  return (
-    <div>
-    <div>
-        my name is amine laarif
-      
-    </div>
-    </div>
-  )
-}
+const Fullname =(props) => <h1>My name is {props.name} </h1>
+  
 
 export default Fullname

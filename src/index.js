@@ -2,17 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Adresse from './Adresse';
 import Fullname from './Fullname';
-import fullname from './Fullname';
-import Amine from  './pic/Amine.jpg'
+import Profession from './Profession';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <img src={Amine} ></img>
+    
 
-  <Fullname></Fullname>
-    <Adresse></Adresse>
+  <Fullname name="amine"></Fullname>
+
+    <Adresse name="sousse/akouda"></Adresse>
+    <Profession name="aide soingnant"></Profession>
   </React.StrictMode>
+ 
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

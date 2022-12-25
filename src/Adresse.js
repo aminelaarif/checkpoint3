@@ -1,11 +1,6 @@
 import React from 'react'
 
-function Adresse() {
-  return (
-    <div>
-      sousse/akouda
-    </div>
-  )
-}
+const Adresse =(props) => <h1>i live in  {props.name} </h1>
+
 
 export default Adresse
